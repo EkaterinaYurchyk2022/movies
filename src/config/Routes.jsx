@@ -1,11 +1,10 @@
 import React from 'react';
 
-import { Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 import Home from "../pages/Home";
 import Catalog from "../pages/Catalog";
 import Detail from "../pages/Detail";
-import Switch from "react-router-dom/es/Switch";
 
 const Routes = () => {
     return (
