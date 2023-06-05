@@ -22,7 +22,7 @@
     @include overlay();
   }
 
-  &::before {
+  &::after {
     content: '';
     position: absolute;
     top: 0;
